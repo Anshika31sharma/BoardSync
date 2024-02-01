@@ -63,7 +63,7 @@ const Main = () => {
           <h className=" ml-4 text-lg font-bold flex items-center ">ProTip</h>
         </div>
         <div className=" w-full h-10 rounded-lg   bg-gray-100">
-          <h className=" ml-4 text-lg font-bold flex items-center ">TRello</h>
+          <h className=" ml-4 text-lg font-bold flex items-center ">Trello</h>
         </div>
         <div className=" w-full h-10 rounded-lg   bg-gray-100">
           <h className=" ml-4 text-lg font-bold flex items-center ">Test</h>
