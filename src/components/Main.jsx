@@ -55,23 +55,24 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-between sm:justify-start pr-2 gap-5">
-        <div className=" w-full h-10 rounded-lg   bg-gray-100">
-          <h className=" ml-4 text-lg font-bold flex items-center ">Design</h>
-        </div>
-        <div className=" w-full h-10 rounded-lg   bg-gray-100">
-          <h className=" ml-4 text-lg font-bold flex items-center ">ProTip</h>
-        </div>
-        <div className=" w-full h-10 rounded-lg   bg-gray-100">
-          <h className=" ml-4 text-lg font-bold flex items-center ">Trello</h>
-        </div>
-        <div className=" w-full h-10 rounded-lg   bg-gray-100">
-          <h className=" ml-4 text-lg font-bold flex items-center ">Test</h>
-        </div>
-        <div className=" w-full h-10 rounded-lg   bg-gray-100">
-          <h className=" ml-4 text-lg font-bold flex items-center ">Final</h>
-        </div>
-        </div>
+        <div className="flex flex-wrap items-center justify-around sm:justify-start pr-2 gap-5">
+  <div className="w-full sm:w-auto h-10 sm:h-auto mb-2 sm:mb-0 sm:mr-2 rounded-lg bg-gray-100">
+    <h className="ml-4 sm:ml-0 text-lg font-bold flex items-center">Design</h>
+  </div>
+  <div className="w-full sm:w-auto h-10 sm:h-auto mb-2 sm:mb-0 sm:mr-2 rounded-lg bg-gray-100">
+    <h className="ml-4 sm:ml-0 text-lg font-bold flex items-center">ProTip</h>
+  </div>
+  <div className="w-full sm:w-auto h-10 sm:h-auto mb-2 sm:mb-0 sm:mr-2 rounded-lg bg-gray-100">
+    <h className="ml-4 sm:ml-0 text-lg font-bold flex items-center">Trello</h>
+  </div>
+  <div className="w-full sm:w-auto h-10 sm:h-auto mb-2 sm:mb-0 sm:mr-2 rounded-lg bg-gray-100">
+    <h className="ml-4 sm:ml-0 text-lg font-bold flex items-center">Test</h>
+  </div>
+  <div className="w-full sm:w-auto h-10 sm:h-auto mb-2 sm:mb-0 rounded-lg bg-gray-100">
+    <h className="ml-4 sm:ml-0 text-lg font-bold flex items-center">Final</h>
+  </div>
+</div>
+
 
        
       </div>
